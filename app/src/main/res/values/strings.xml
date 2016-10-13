@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinalApp</string>
+
+    <string-array name="primaryt">
+        <item>Blue ARC-170</item>
+        <item>Red ARC-170</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:id="@+id/fleetImageView"
+            android:layout_row="17"
+            android:layout_column="6"
+            android:src="@drawable/a2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orders"
+            android:id="@+id/ordersButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/mainImageView"
+            android:layout_alignEnd="@+id/mainImageView"
+            android:layout_row="21"
+            android:layout_column="6" />
+    </GridLayout>
+</LinearLayout>
